@@ -12,7 +12,7 @@ title                    : "HaoXiang Wang / Homepage"
 title_separator          : "-"
 name                     : &name 
 description              : &description 
-url                      : https://haoxiangwang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://markgodrick.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
