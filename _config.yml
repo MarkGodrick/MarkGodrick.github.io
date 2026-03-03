@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Haoxiang Wang"
   pronouns         : # example: "she/her"  
-  bio              : "An undergraduate doing NLP research"
+  bio              : "Undergraduate in School of Electronic Engineering and Computer Science"
   location         : "Beijing / China"
   employer         : "Peking University"
   uri              : # URL
@@ -32,7 +32,7 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=fybtaQIAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
