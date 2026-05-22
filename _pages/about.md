@@ -54,7 +54,7 @@ Recently, my research has focused on evaluating the dynamic capability boundarie
   <div class="home-pub">
     <div class="pub-card">
       <div class="pub-title">Beyond Fixed Benchmarks and Worst-Case Attacks: Dynamic Boundary Evaluation for Language Models</div>
-      <div class="pub-authors"><strong>Haoxiang Wang</strong> et al.</div>
+      <div class="pub-authors"><strong>Haoxiang Wang</strong>, Da Yu, Huishuai Zhang</div>
       <div class="pub-venue">Preprint; under submission to NeurIPS 2026</div>
       <div class="pub-links">
         <a href="/publications/2026-05-01-dynamic-boundary-evaluation/"><i class="fas fa-file-alt"></i>Project</a>
