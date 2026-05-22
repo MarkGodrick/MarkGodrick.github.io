@@ -27,11 +27,11 @@ Recently, my research has focused on evaluating the dynamic capability boundarie
     <ul>
       <li>
         <span class="news-date">May 2026</span>
-        <span class="news-content">Our manuscript <em>Beyond Fixed Benchmarks and Worst-Case Attacks: Dynamic Boundary Evaluation for Language Models</em> is currently under submission to <strong>NeurIPS 2026</strong>.</span>
+        <span class="news-content">Our work <em>Beyond Fixed Benchmarks and Worst-Case Attacks: Dynamic Boundary Evaluation for Language Models</em> is currently under submission to <strong>NeurIPS 2026</strong>.</span>
       </li>
       <li>
         <span class="news-date">May 2026</span>
-        <span class="news-content">The Chinese version of this work, <em>大语言模型动态能力边界评测：技能引导搜索与难度校准</em>, was selected as an <strong>Outstanding Undergraduate Thesis</strong>.</span>
+        <span class="news-content">My undergraduate thesis on dynamic boundary evaluation for language models, titled <em>大语言模型动态能力边界评测：技能引导搜索与难度校准</em>, was selected as an <strong>Outstanding Undergraduate Thesis</strong>.</span>
       </li>
       <li>
         <span class="news-date">Jan 2026</span>
