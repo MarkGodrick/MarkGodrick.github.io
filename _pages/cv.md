@@ -38,6 +38,11 @@ redirect_from:
   <h2><i class="fas fa-award cv-icon"></i> Honors &amp; Awards</h2>
   <div class="cv-timeline">
     <div class="cv-timeline-item">
+      <div class="cv-timeline-date">May 2026</div>
+      <div class="cv-timeline-title">Outstanding Undergraduate Thesis</div>
+      <div class="cv-timeline-subtitle">For <em>大语言模型动态能力边界评测：技能引导搜索与难度校准</em>, Peking University</div>
+    </div>
+    <div class="cv-timeline-item">
       <div class="cv-timeline-date">October 2025</div>
       <div class="cv-timeline-title">Zhiban Scholarship (智班奖学金)</div>
       <div class="cv-timeline-subtitle">Peking University</div>
@@ -61,7 +66,7 @@ redirect_from:
 </div>
 
 <div class="cv-section">
-  <h2><i class="fas fa-file-alt cv-icon"></i> Publications</h2>
+  <h2><i class="fas fa-file-alt cv-icon"></i> Publications &amp; Preprints</h2>
   <div class="cv-list">
     <ul>{% for post in site.publications reversed %}
       {% include archive-single-cv.html %}
