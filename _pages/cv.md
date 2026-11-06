@@ -27,7 +27,7 @@ redirect_from:
       <div class="cv-timeline-subtitle">Wangxuan Institute of Computer Technology</div>
     </div>
     <div class="cv-timeline-item">
-      <div class="cv-timeline-date">2022 – 2026 (expected)</div>
+      <div class="cv-timeline-date">2022 – 2026</div>
       <div class="cv-timeline-title">B.S. in Computer Science, Peking University</div>
       <div class="cv-timeline-subtitle">School of Electronics Engineering and Computer Science (EECS)</div>
     </div>
@@ -59,6 +59,7 @@ redirect_from:
   <h2><i class="fas fa-flask cv-icon"></i> Research Interests</h2>
   <div class="cv-badges">
     <span class="cv-badge">Large Language Models (LLM)</span>
+    <span class="cv-badge">LLM Evaluation</span>
     <span class="cv-badge">AI Safety</span>
     <span class="cv-badge">Reinforcement Learning (RL)</span>
     <span class="cv-badge">Multi-modal Learning</span>
@@ -77,6 +78,11 @@ redirect_from:
 <div class="cv-section">
   <h2><i class="fas fa-briefcase cv-icon"></i> Experience</h2>
   <div class="cv-timeline">
+    <div class="cv-timeline-item">
+      <div class="cv-timeline-date">Autumn 2024 – Spring 2026</div>
+      <div class="cv-timeline-title">Research Intern</div>
+      <div class="cv-timeline-subtitle">Wangxuan Institute of Computer Technology, Peking University</div>
+    </div>
     <div class="cv-timeline-item">
       <div class="cv-timeline-date">Spring 2026</div>
       <div class="cv-timeline-title">Teaching Assistant, Introduction to Artificial Intelligence</div>

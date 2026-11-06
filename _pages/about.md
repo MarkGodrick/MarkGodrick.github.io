@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am **Haoxiang Wang** (王浩翔), an incoming Ph.D. student at the [Wangxuan Institute of Computer Technology](https://www.icst.pku.edu.cn/), Peking University. I received my B.S. in Computer Science from the School of EECS, Peking University in 2026.
+Hi! I am **Haoxiang Wang** (王浩翔), a Ph.D. student at the [Wangxuan Institute of Computer Technology](https://www.icst.pku.edu.cn/), Peking University. I received my B.S. in Computer Science from the School of EECS, Peking University in 2026.
 
 Recently, my research has focused on evaluating the dynamic capability boundaries of large language models, especially how to move beyond fixed benchmarks and static worst-case attacks toward skill-guided search and calibrated difficulty estimation.
 
@@ -15,6 +15,7 @@ Recently, my research has focused on evaluating the dynamic capability boundarie
   <h2><i class="fas fa-flask cv-icon"></i> Research Interests</h2>
   <div class="cv-badges">
     <span class="cv-badge">Large Language Models (LLM)</span>
+    <span class="cv-badge">LLM Evaluation</span>
     <span class="cv-badge">AI Safety</span>
     <span class="cv-badge">Reinforcement Learning (RL)</span>
     <span class="cv-badge">Multi-modal Learning</span>
@@ -26,8 +27,8 @@ Recently, my research has focused on evaluating the dynamic capability boundarie
   <div class="home-news">
     <ul>
       <li>
-        <span class="news-date">May 2026</span>
-        <span class="news-content">Our work <em>Beyond Fixed Benchmarks and Worst-Case Attacks: Dynamic Boundary Evaluation for Language Models</em> is currently under submission to <strong>NeurIPS 2026</strong>.</span>
+        <span class="news-date">Nov 2026</span>
+        <span class="news-content">Our work <a href="https://arxiv.org/abs/2605.06213"><em>Beyond Fixed Benchmarks and Worst-Case Attacks: Dynamic Boundary Evaluation for Language Models</em></a> has been accepted to <strong>NeurIPS 2026 (Poster)</strong>!</span>
       </li>
       <li>
         <span class="news-date">May 2026</span>
@@ -55,15 +56,17 @@ Recently, my research has focused on evaluating the dynamic capability boundarie
     <div class="pub-card">
       <div class="pub-title">Beyond Fixed Benchmarks and Worst-Case Attacks: Dynamic Boundary Evaluation for Language Models</div>
       <div class="pub-authors"><strong>Haoxiang Wang</strong>, Da Yu, Huishuai Zhang</div>
-      <div class="pub-venue">Preprint; under submission to NeurIPS 2026</div>
+      <div class="pub-venue">NeurIPS 2026 (Poster)</div>
       <div class="pub-links">
+        <a href="https://arxiv.org/abs/2605.06213"><i class="fas fa-file-pdf"></i>Paper</a>
+        <a href="https://openreview.net/forum?id=J3qFCn37gm"><i class="fas fa-external-link-alt"></i>OpenReview</a>
         <a href="/publications/2026-05-01-dynamic-boundary-evaluation/"><i class="fas fa-file-alt"></i>Project</a>
       </div>
     </div>
     <div class="pub-card">
       <div class="pub-title">Synthesize Privacy-Preserving High-Resolution Images via Private Textual Intermediaries</div>
-      <div class="pub-authors"><strong>Haoxiang Wang</strong>, Zekun Lin, Deyuan Yu, Hao Zhang</div>
-      <div class="pub-venue">NeurIPS 2025</div>
+      <div class="pub-authors"><strong>Haoxiang Wang</strong>, Zinan Lin, Da Yu, Huishuai Zhang</div>
+      <div class="pub-venue">NeurIPS 2025 (Poster)</div>
       <div class="pub-links">
         <a href="https://arxiv.org/abs/2506.07555"><i class="fas fa-file-pdf"></i>Paper</a>
         <a href="https://github.com/MarkGodrick/SPTI"><i class="fab fa-github"></i>Code</a>
