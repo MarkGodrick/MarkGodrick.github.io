@@ -7,6 +7,10 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+{% assign boundary_paper = site.publications | where: "permalink", "/publications/2026-05-01-dynamic-boundary-evaluation/" | first %}
+{% assign spti_paper = site.publications | where: "permalink", "/publications/2025-09-20-spti/" | first %}
+
 Hi! I am **Haoxiang Wang** (王浩翔), a Ph.D. student at the [Wangxuan Institute of Computer Technology](https://www.icst.pku.edu.cn/), Peking University. I received my B.S. in Computer Science from the School of EECS, Peking University in 2026.
 
 Recently, my research has focused on evaluating the dynamic capability boundaries of large language models, especially how to move beyond fixed benchmarks and static worst-case attacks toward skill-guided search and calibrated difficulty estimation.
@@ -28,7 +32,7 @@ Recently, my research has focused on evaluating the dynamic capability boundarie
     <ul>
       <li>
         <span class="news-date">Nov 2026</span>
-        <span class="news-content">Our work <a href="https://arxiv.org/abs/2605.06213"><em>Beyond Fixed Benchmarks and Worst-Case Attacks: Dynamic Boundary Evaluation for Language Models</em></a> has been accepted to <strong>NeurIPS 2026 (Poster)</strong>!</span>
+        <span class="news-content">Our work <a href="{{ base_path }}{{ boundary_paper.url }}"><em>{{ boundary_paper.title }}</em></a> has been accepted to <strong>NeurIPS 2026 (Poster)</strong>!</span>
       </li>
       <li>
         <span class="news-date">May 2026</span>
@@ -44,7 +48,7 @@ Recently, my research has focused on evaluating the dynamic capability boundarie
       </li>
       <li>
         <span class="news-date">Sep 2025</span>
-        <span class="news-content">Our paper <em>SPTI</em> has been accepted to <strong>NeurIPS 2025</strong>!</span>
+        <span class="news-content">Our paper <a href="{{ base_path }}{{ spti_paper.url }}"><em>SPTI</em></a> has been accepted to <strong>NeurIPS 2025 (Poster)</strong>!</span>
       </li>
     </ul>
   </div>
@@ -53,24 +57,17 @@ Recently, my research has focused on evaluating the dynamic capability boundarie
 <div class="cv-section">
   <h2><i class="fas fa-file-alt cv-icon"></i> Selected Works</h2>
   <div class="home-pub">
+    {% for post in site.publications reversed %}
     <div class="pub-card">
-      <div class="pub-title">Beyond Fixed Benchmarks and Worst-Case Attacks: Dynamic Boundary Evaluation for Language Models</div>
-      <div class="pub-authors"><strong>Haoxiang Wang</strong>, Da Yu, Huishuai Zhang</div>
-      <div class="pub-venue">NeurIPS 2026 (Poster)</div>
+      <div class="pub-title"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></div>
+      <div class="pub-authors">{% for author in post.authors %}{% if author == site.author.name %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</div>
+      <div class="pub-venue">{{ post.venue }}</div>
       <div class="pub-links">
-        <a href="https://arxiv.org/abs/2605.06213"><i class="fas fa-file-pdf"></i>Paper</a>
-        <a href="https://openreview.net/forum?id=J3qFCn37gm"><i class="fas fa-external-link-alt"></i>OpenReview</a>
-        <a href="/publications/2026-05-01-dynamic-boundary-evaluation/"><i class="fas fa-file-alt"></i>Project</a>
+        <a href="{{ base_path }}{{ post.url }}"><i class="fas fa-file-alt"></i>Details</a>
+        {% if post.paperurl %}<a href="{{ post.paperurl }}"><i class="fas fa-file-pdf"></i>Paper</a>{% endif %}
+        {% if post.codeurl %}<a href="{{ post.codeurl }}"><i class="fab fa-github"></i>Code</a>{% endif %}
       </div>
     </div>
-    <div class="pub-card">
-      <div class="pub-title">Synthesize Privacy-Preserving High-Resolution Images via Private Textual Intermediaries</div>
-      <div class="pub-authors"><strong>Haoxiang Wang</strong>, Zinan Lin, Da Yu, Huishuai Zhang</div>
-      <div class="pub-venue">NeurIPS 2025 (Poster)</div>
-      <div class="pub-links">
-        <a href="https://arxiv.org/abs/2506.07555"><i class="fas fa-file-pdf"></i>Paper</a>
-        <a href="https://github.com/MarkGodrick/SPTI"><i class="fab fa-github"></i>Code</a>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </div>
